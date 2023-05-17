@@ -1,2 +1,3 @@
 # LInear_Search
 This repository provides a concise C++ implementation of Linear Search. It checks each element in an array sequentially to find a match. It's a fundamental and efficient searching algorithm.
+First of all we declare an array and then we take the inputs of the array to a particular limit. After that we take the input of the element we need to find in the array. Then we call a function named linear search which tells that whether the element is present or not and if present then at what index it is present. The function linear search checks the entire array one by one for the target element and once it is found it returns the index at which it is found else it returns -1 which indicates that the element is not found.
