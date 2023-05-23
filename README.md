@@ -12,12 +12,15 @@ The time complexity of the linear search algorithm is O(n), where 'n' represents
 The space complexity of the linear search algorithm is O(1), which means it requires constant space regardless of the size of the input. This is because the algorithm does not require any additional data structures or memory allocations that depend on the size of the input. It simply uses a few variables to keep track of the current element and the search progress.
 
 
-# Use Cases
+# Use Cases
 While linear search is a simple and straightforward algorithm, it is generally not preferred for large-scale industrial use cases where efficiency is crucial. However, there are certain scenarios where linear search can still find applications:
 
 a. Small Datasets: Linear search can be suitable for searching through small datasets or collections where the number of elements is relatively limited. In such cases, the overhead of implementing more complex search algorithms may outweigh the benefits.
+
 b. Unsorted Data: Linear search can be useful when the data is unsorted or in a random order. Since linear search does not depend on any specific order or structure, it can effectively find the desired element regardless of the arrangement.
+
 c. Partial Matches: Linear search can be employed in situations where the goal is to find partial matches or approximate matches. It can iterate through all elements and return the closest match, even if an exact match is not found.
+
 d. Preprocessing Stage: Linear search may be used during a preprocessing stage or as a preliminary step in more complex algorithms. It can help filter or identify certain elements that need further processing using other algorithms or techniques.
 
 # Function Description
